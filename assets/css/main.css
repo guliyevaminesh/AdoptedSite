@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header .SocialMedias {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #BC5148;
+  height: 35px;
+}
+header .SocialMedias .SocialMediasabout {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .SocialMedias .SocialMediasabout .SocialMediasicons {
+  display: flex;
+  gap: 15px;
+}
+header .SocialMedias .SocialMediasabout .SocialMediasbuttons {
+  display: flex;
+  gap: 10px;
+}
+header .SocialMedias .SocialMediasabout .SocialMediasbuttons .Sponsor {
+  border: none;
+  background-color: transparent;
+  font-size: 10px;
+}
+header .SocialMedias .SocialMediasabout .SocialMediasbuttons .Sponsor:hover {
+  color: white;
+}
+header .SocialMedias .SocialMediasabout .SocialMediasbuttons .Login {
+  width: 45px;
+  background-color: #EDAD13;
+  height: 35px;
+  border: none;
+  font-size: 10px;
+}
+header .SocialMedias .SocialMediasabout .SocialMediasbuttons .Login:hover {
+  color: white;
+}
+header nav {
+  width: 82%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+#AdoptedChild {
+  width: 100%;
+  background-image: url(/assets/img/slider-1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#AdoptedChild .AdoptedChildcontainer {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  margin-top: 25px;
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+}
+#AdoptedChild .AdoptedChildcontainer .row {
+  padding-top: 30px;
+  margin-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#AdoptedChild .AdoptedChildcontainer .row .childabout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 25px;
+  margin-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#AdoptedChild .AdoptedChildcontainer .row .childabout span {
+  font-size: 20px;
+  font-family: cursive;
+}
+#AdoptedChild .AdoptedChildcontainer .row .childabout h4 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+#AdoptedChild .AdoptedChildcontainer .row .childabout button {
+  font-size: 12px;
+  width: 120px;
+  height: 35px;
+  border: none;
+  background-color: #c9635a;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+}
+#AdoptedChild .AdoptedChildcontainer .row .childabout button:hover {
+  background-color: rgba(188, 81, 72, 0.6);
+}
+
+#StepsAdopt {
+  width: 100%;
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#StepsAdopt .StepsAdoptcontainer {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  margin-top: 25px;
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+}
+#StepsAdopt .StepsAdoptcontainer .row {
+  padding-top: 30px;
+  margin-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#StepsAdopt .StepsAdoptcontainer .row .StepsAdoptfamily {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 12px;
+}
+#StepsAdopt .StepsAdoptcontainer .row .StepsAdoptfamily img {
+  width: 280px;
+}
+#StepsAdopt .StepsAdoptcontainer .row .StepsAdoptfamily button {
+  font-size: 12px;
+  width: 120px;
+  height: 35px;
+  border: 1px solid #c9635a;
+  color: #BC5148;
+  outline: none;
+  border-radius: 4px;
+}
+#StepsAdopt .StepsAdoptcontainer .row .StepsAdoptfamily button:hover {
+  background-color: rgb(188, 81, 72);
+  color: white;
+}
+
+#WaitingChildren {
+  width: 100%;
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#WaitingChildren .WaitingChildrencontainer {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+}
+#WaitingChildren .WaitingChildrencontainer .row {
+  padding-top: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#WaitingChildren .WaitingChildrencontainer .row .WaitingChildrentext {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#WaitingChildren .WaitingChildrencontainer .row .WaitingChildrentext button {
+  width: 200px;
+  font-size: 12px;
+  height: 35px;
+  border: none;
+  background-color: #c9635a;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+}
+#WaitingChildren .WaitingChildrencontainer .row .WaitingChildrentext button:hover {
+  background-color: rgba(188, 81, 72, 0.6);
+}
+#WaitingChildren .WaitingChildrencontainer .row .WaitingChildrenabout {
+  margin-bottom: 10px;
+}
+#WaitingChildren .WaitingChildrencontainer .row .WaitingChildrenabout img {
+  width: 280px;
+}
+
+#FeaturedStories {
+  width: 100%;
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#FeaturedStories .FeaturedStoriescontainer {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+#FeaturedStories .FeaturedStoriescontainer .row {
+  padding-top: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#FeaturedStories .FeaturedStoriescontainer .row img {
+  width: 112%;
+}
+
+#UserSubscribe {
+  width: 100%;
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#UserSubscribe .UserSubscribecontainer {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+}
+#UserSubscribe .UserSubscribecontainer .row input {
+  width: 280px;
+}
+#UserSubscribe .UserSubscribecontainer .row button {
+  width: 200px;
+  height: 35px;
+  border: none;
+  background-color: #BC5148;
+  color: white;
+  border-radius: 5px;
+}
